@@ -30,8 +30,8 @@ class ContactController extends Controller
     /**
      * Show the form for creating a new contact.
      */
-    public function create()
-    {
+    public function create(){
+    
         return view('contacts.create');
     }
 

@@ -7,8 +7,6 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto py-10">
-            <h1 class="text-3xl font-bold mb-6 text-gray-800">Contacts List</h1>
-
             <!-- Button to open the Create Contact page -->
             <a href="{{ route('contacts.create') }}" class="mb-4 my-5 px-4 py-2  bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600">
                 Create Contact
