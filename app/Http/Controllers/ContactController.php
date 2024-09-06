@@ -70,6 +70,7 @@ class ContactController extends Controller
             'name' => 'required|string|max:255',
             'email' => 'required|email|unique:contacts,email,' . $id,
             'phone' => 'required|string|max:50',
+            'company' => 'required|string|max:255',
         ]);
 
         $this->contactService->updateContact($id, $validatedData);
